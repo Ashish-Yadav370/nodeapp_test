@@ -1,9 +1,4 @@
 FROM nginx:alpine
-COPY . /usr/share/nginx/html
-
-
-
-COPY . .
-
+COPY index.html /usr/share/nginx/html
 EXPOSE 4000
 
